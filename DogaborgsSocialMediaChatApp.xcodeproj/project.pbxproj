@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		113DFCB886B67D06A8516430 /* Pods_DogaborgsSocialMediaChatApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4EDB787AFE2DCB49F338C76 /* Pods_DogaborgsSocialMediaChatApp.framework */; };
+		5812D6A8211F98B30068B7B1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812D6A7211F98B30068B7B1 /* AppDelegate.swift */; };
+		5812D6AA211F98B30068B7B1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5812D6A9211F98B30068B7B1 /* ViewController.swift */; };
+		5812D6AD211F98B30068B7B1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5812D6AB211F98B30068B7B1 /* Main.storyboard */; };
+		5812D6B2211F98B30068B7B1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5812D6B1211F98B30068B7B1 /* Assets.xcassets */; };
+		5812D6B5211F98B30068B7B1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5812D6B3211F98B30068B7B1 /* LaunchScreen.storyboard */; };
+		582209AA2120B8FE004210A7 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 582209A92120B8FE004210A7 /* GoogleService-Info.plist */; };
+		586B7C7D2120B3A50030F5C1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B7C7C2120B3A50030F5C1 /* LoginViewController.swift */; };
+		586B7C7F2120B3BF0030F5C1 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B7C7E2120B3BF0030F5C1 /* SignUpViewController.swift */; };
+		586B7C812120B3D30030F5C1 /* NewsFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B7C802120B3D30030F5C1 /* NewsFeedViewController.swift */; };
+		586B7C832120B3E70030F5C1 /* WritePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586B7C822120B3E70030F5C1 /* WritePostViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		13184BCD9FB225BF5D315BC3 /* Pods-DogaborgsSocialMediaChatApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogaborgsSocialMediaChatApp.release.xcconfig"; path = "Pods/Target Support Files/Pods-DogaborgsSocialMediaChatApp/Pods-DogaborgsSocialMediaChatApp.release.xcconfig"; sourceTree = "<group>"; };
+		4C102BFB312BD727D561C6FE /* Pods-DogaborgsSocialMediaChatApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DogaborgsSocialMediaChatApp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DogaborgsSocialMediaChatApp/Pods-DogaborgsSocialMediaChatApp.debug.xcconfig"; sourceTree = "<group>"; };
+		5812D6A4211F98B20068B7B1 /* DogaborgsSocialMediaChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DogaborgsSocialMediaChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5812D6A7211F98B30068B7B1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5812D6A9211F98B30068B7B1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		5812D6AC211F98B30068B7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5812D6B1211F98B30068B7B1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5812D6B4211F98B30068B7B1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5812D6B6211F98B30068B7B1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		582209A92120B8FE004210A7 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		586B7C7C2120B3A50030F5C1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		586B7C7E2120B3BF0030F5C1 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		586B7C802120B3D30030F5C1 /* NewsFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsFeedViewController.swift; sourceTree = "<group>"; };
+		586B7C822120B3E70030F5C1 /* WritePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WritePostViewController.swift; sourceTree = "<group>"; };
+		D4EDB787AFE2DCB49F338C76 /* Pods_DogaborgsSocialMediaChatApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DogaborgsSocialMediaChatApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5812D6A1211F98B20068B7B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				113DFCB886B67D06A8516430 /* Pods_DogaborgsSocialMediaChatApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		208A9EA6FEE09CBB8A5106C2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C102BFB312BD727D561C6FE /* Pods-DogaborgsSocialMediaChatApp.debug.xcconfig */,
+				13184BCD9FB225BF5D315BC3 /* Pods-DogaborgsSocialMediaChatApp.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5812D69B211F98B20068B7B1 = {
+			isa = PBXGroup;
+			children = (
+				5812D6A6211F98B20068B7B1 /* DogaborgsSocialMediaChatApp */,
+				5812D6A5211F98B20068B7B1 /* Products */,
+				208A9EA6FEE09CBB8A5106C2 /* Pods */,
+				972C320635FFE9E12DA10563 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5812D6A5211F98B20068B7B1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5812D6A4211F98B20068B7B1 /* DogaborgsSocialMediaChatApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5812D6A6211F98B20068B7B1 /* DogaborgsSocialMediaChatApp */ = {
+			isa = PBXGroup;
+			children = (
+				5812D6AB211F98B30068B7B1 /* Main.storyboard */,
+				5812D6A7211F98B30068B7B1 /* AppDelegate.swift */,
+				5812D6A9211F98B30068B7B1 /* ViewController.swift */,
+				586B7C7C2120B3A50030F5C1 /* LoginViewController.swift */,
+				586B7C7E2120B3BF0030F5C1 /* SignUpViewController.swift */,
+				586B7C802120B3D30030F5C1 /* NewsFeedViewController.swift */,
+				586B7C822120B3E70030F5C1 /* WritePostViewController.swift */,
+				5812D6B1211F98B30068B7B1 /* Assets.xcassets */,
+				5812D6B3211F98B30068B7B1 /* LaunchScreen.storyboard */,
+				582209A92120B8FE004210A7 /* GoogleService-Info.plist */,
+				5812D6B6211F98B30068B7B1 /* Info.plist */,
+			);
+			path = DogaborgsSocialMediaChatApp;
+			sourceTree = "<group>";
+		};
+		972C320635FFE9E12DA10563 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4EDB787AFE2DCB49F338C76 /* Pods_DogaborgsSocialMediaChatApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5812D6A3211F98B20068B7B1 /* DogaborgsSocialMediaChatApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5812D6B9211F98B30068B7B1 /* Build configuration list for PBXNativeTarget "DogaborgsSocialMediaChatApp" */;
+			buildPhases = (
+				AC451A5A602F5548A87CCB9E /* [CP] Check Pods Manifest.lock */,
+				5812D6A0211F98B20068B7B1 /* Sources */,
+				5812D6A1211F98B20068B7B1 /* Frameworks */,
+				5812D6A2211F98B20068B7B1 /* Resources */,
+				D3538CA851B6AF158536B88F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DogaborgsSocialMediaChatApp;
+			productName = DogaborgsSocialMediaChatApp;
+			productReference = 5812D6A4211F98B20068B7B1 /* DogaborgsSocialMediaChatApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5812D69C211F98B20068B7B1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Jonathan Fong";
+				TargetAttributes = {
+					5812D6A3211F98B20068B7B1 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+				};
+			};
+			buildConfigurationList = 5812D69F211F98B20068B7B1 /* Build configuration list for PBXProject "DogaborgsSocialMediaChatApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5812D69B211F98B20068B7B1;
+			productRefGroup = 5812D6A5211F98B20068B7B1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5812D6A3211F98B20068B7B1 /* DogaborgsSocialMediaChatApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5812D6A2211F98B20068B7B1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5812D6B5211F98B30068B7B1 /* LaunchScreen.storyboard in Resources */,
+				582209AA2120B8FE004210A7 /* GoogleService-Info.plist in Resources */,
+				5812D6B2211F98B30068B7B1 /* Assets.xcassets in Resources */,
+				5812D6AD211F98B30068B7B1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AC451A5A602F5548A87CCB9E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DogaborgsSocialMediaChatApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D3538CA851B6AF158536B88F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DogaborgsSocialMediaChatApp/Pods-DogaborgsSocialMediaChatApp-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DogaborgsSocialMediaChatApp/Pods-DogaborgsSocialMediaChatApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5812D6A0211F98B20068B7B1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				586B7C832120B3E70030F5C1 /* WritePostViewController.swift in Sources */,
+				586B7C7D2120B3A50030F5C1 /* LoginViewController.swift in Sources */,
+				5812D6AA211F98B30068B7B1 /* ViewController.swift in Sources */,
+				586B7C7F2120B3BF0030F5C1 /* SignUpViewController.swift in Sources */,
+				5812D6A8211F98B30068B7B1 /* AppDelegate.swift in Sources */,
+				586B7C812120B3D30030F5C1 /* NewsFeedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5812D6AB211F98B30068B7B1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5812D6AC211F98B30068B7B1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5812D6B3211F98B30068B7B1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5812D6B4211F98B30068B7B1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5812D6B7211F98B30068B7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5812D6B8211F98B30068B7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5812D6BA211F98B30068B7B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C102BFB312BD727D561C6FE /* Pods-DogaborgsSocialMediaChatApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DogaborgsSocialMediaChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Fong.DogaborgsSocialMediaChatApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5812D6BB211F98B30068B7B1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13184BCD9FB225BF5D315BC3 /* Pods-DogaborgsSocialMediaChatApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DogaborgsSocialMediaChatApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Jonathan-Fong.DogaborgsSocialMediaChatApp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5812D69F211F98B20068B7B1 /* Build configuration list for PBXProject "DogaborgsSocialMediaChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812D6B7211F98B30068B7B1 /* Debug */,
+				5812D6B8211F98B30068B7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5812D6B9211F98B30068B7B1 /* Build configuration list for PBXNativeTarget "DogaborgsSocialMediaChatApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5812D6BA211F98B30068B7B1 /* Debug */,
+				5812D6BB211F98B30068B7B1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5812D69C211F98B20068B7B1 /* Project object */;
+}
